@@ -21,6 +21,7 @@
 		634AE05B1963ABCE006A0AE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634AE03D1963ABCE006A0AE0 /* UIKit.framework */; };
 		634AE0631963ABCE006A0AE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 634AE0611963ABCE006A0AE0 /* InfoPlist.strings */; };
 		634AE0651963ABCE006A0AE0 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 634AE0641963ABCE006A0AE0 /* Git_TestTests.m */; };
+		639CCBDC1963B2FE00275C58 /* HHTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 639CCBDB1963B2FE00275C58 /* HHTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		634AE0601963ABCE006A0AE0 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		634AE0621963ABCE006A0AE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		634AE0641963ABCE006A0AE0 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		639CCBDA1963B2FE00275C58 /* HHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTest.h; sourceTree = "<group>"; };
+		639CCBDB1963B2FE00275C58 /* HHTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		634AE02D1963ABCE006A0AE0 = {
 			isa = PBXGroup;
 			children = (
+				639CCBDA1963B2FE00275C58 /* HHTest.h */,
+				639CCBDB1963B2FE00275C58 /* HHTest.m */,
 				634AE03F1963ABCE006A0AE0 /* Git Test */,
 				634AE05E1963ABCE006A0AE0 /* Git TestTests */,
 				634AE0381963ABCE006A0AE0 /* Frameworks */,
@@ -253,6 +258,7 @@
 				634AE0501963ABCE006A0AE0 /* HHViewController.m in Sources */,
 				634AE04A1963ABCE006A0AE0 /* HHAppDelegate.m in Sources */,
 				634AE0461963ABCE006A0AE0 /* main.m in Sources */,
+				639CCBDC1963B2FE00275C58 /* HHTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +463,7 @@
 				634AE06A1963ABCE006A0AE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		634AE06B1963ABCE006A0AE0 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				634AE06D1963ABCE006A0AE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
